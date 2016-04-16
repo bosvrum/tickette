@@ -27,3 +27,7 @@ group :test do
   gem 'factory_girl_rails', '~> 4.6'
 end
 
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
+gem 'simple_form', '~> 3.2', '>= 3.2.1'
+gem 'font-awesome-rails', '~> 4.6', '>= 4.6.1.0'
+
