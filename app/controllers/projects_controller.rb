@@ -12,16 +12,16 @@ class ProjectsController < ApplicationController
     @project = Project.find(params[:id])
   end
 
-    def create
-    @project = Project.new(project_params)
-
+  def create
+  @project = Project.new(project_params)
     if @project.save
       flash[:notice] = "Project has been created."
       redirect_to @project
     else
-      # nothing, yet
+      render :new
     end
   end
+  
 
   private
 
