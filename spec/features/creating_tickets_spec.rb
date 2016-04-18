@@ -52,6 +52,7 @@ RSpec.feature "Users can create new tickets" do
       expect(page).to have_content "speed.txt"
     end
   end
+<<<<<<< HEAD
 
   scenario "persisting file uploads across form displays" do
     attach_file "File", "spec/fixtures/speed.txt"
@@ -65,4 +66,6 @@ RSpec.feature "Users can create new tickets" do
       expect(page).to have_content "speed.txt"
     end
   end
+=======
+>>>>>>> 4ebb88b5864722bc38c3881c9f1571b2e9803616
 end
