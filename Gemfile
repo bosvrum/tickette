@@ -32,4 +32,4 @@ gem 'simple_form', '~> 3.2', '>= 3.2.1'
 gem 'font-awesome-rails', '~> 4.6', '>= 4.6.1.0'
 gem 'devise', '~> 3.5', '>= 3.5.6'
 gem 'pundit', '~> 1.1'
-
+gem 'carrierwave', '~> 0.10.0'
